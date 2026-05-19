@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import heroPhone from "@/assets/hero-phone.png";
+import { PhoneFrame } from "@/components/PhoneFrame";
+import heroPhone from "@/assets/app-inicio.png";
 
 export function Hero() {
   return (
@@ -57,12 +58,10 @@ export function Hero() {
             className="absolute inset-0 -z-10 rounded-full blur-3xl opacity-40"
             style={{ background: "radial-gradient(circle, var(--teal) 0%, transparent 65%)" }}
           />
-          <img
+          <PhoneFrame
             src={heroPhone}
             alt="Aplicación tudatáfono mostrando pantalla de cobro"
-            width={800}
-            height={1024}
-            className="w-full max-w-md drop-shadow-2xl"
+            className="drop-shadow-2xl"
           />
         </motion.div>
       </div>
