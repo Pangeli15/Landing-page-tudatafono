@@ -36,13 +36,13 @@ export function Hero() {
               Agenda un Demo
             </a>
           </div>
-          <div className="mt-12 flex gap-12">
+          <div className="mt-12 flex gap-8 sm:gap-12">
             <div>
-              <div className="text-5xl font-bold text-mint" style={{ color: "var(--mint)" }}>0%</div>
+              <div className="text-4xl sm:text-5xl font-bold whitespace-nowrap" style={{ color: "var(--mint)" }}>0%</div>
               <div className="text-sm text-muted-foreground mt-1">costo mensual básico</div>
             </div>
             <div>
-              <div className="text-5xl font-bold text-mint" style={{ color: "var(--mint)" }}>2 Min</div>
+              <div className="text-4xl sm:text-5xl font-bold whitespace-nowrap" style={{ color: "var(--mint)" }}>2 Min</div>
               <div className="text-sm text-muted-foreground mt-1">para activar</div>
             </div>
           </div>
