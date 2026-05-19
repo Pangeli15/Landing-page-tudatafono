@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
-import notifications from "@/assets/phone-notifications.png";
+import { PhoneFrame } from "@/components/PhoneFrame";
+import notifications from "@/assets/app-inicio-qr.png";
 
 const items = [
   { title: "Pago al día siguiente", desc: "Las ventas llegan a tu cuenta mañana antes de las 10 a.m." },
@@ -44,13 +45,9 @@ export function NoHiddenCosts() {
             className="absolute inset-0 -z-10 rounded-full blur-3xl opacity-30"
             style={{ background: "radial-gradient(circle, var(--mint) 0%, transparent 65%)" }}
           />
-          <img
+          <PhoneFrame
             src={notifications}
-            alt="Notificaciones de pagos en el celular"
-            width={800}
-            height={900}
-            loading="lazy"
-            className="max-w-sm w-full"
+            alt="App de tudatáfono mostrando pago con código QR"
           />
         </div>
       </div>
