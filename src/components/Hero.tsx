@@ -21,8 +21,7 @@ export function Hero() {
             tu celular.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-md">
-            Acepta pagos con tarjeta débito, crédito, QR y Nequi desde tu smartphone.
-            Sin hardware, sin mensualidad, sin complicaciones.
+            Te activamos tu celular como una terminal softPOS. Fácil y sin complicaciones
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Button
